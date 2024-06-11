@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "hot": "mix watch --hot",
+    "prod": "mix --production && mix --production --mix-config=webpack.ssr.mix.js",
+    "production": "mix --production",
+    "sitemap": "vue-cli-service sitemap",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue": "^0.8.0",
+    "@inertiajs/server": "^0.1.0",
+    "@popperjs/core": "^2.11.5",
+    "advanced-laravel-vue-paginate": "^0.3.0",
+    "bootstrap": "^5.0.1",
+    "pm2": "^5.2.0",
+    "popper.js": "^1.16.1",
+    "save": "^2.5.0",
+    "v-tooltip": "^2.1.3",
+    "vue-carousel": "^0.18.0",
+    "vue-client-only": "^2.1.0",
+    "vue-js-modal": "^2.0.1",
+    "vue-lazyload": "^1.3.3",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-server-renderer": "^2.6.14",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.25",
+    "laravel-mix": "^6.0.43",
+    "lodash": "^4.17.19",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "~1.32.6",
+    "sass-loader": "^12.6.0",
+    "vue": "^2.6.14",
+    "vue-cli-plugin-sitemap": "~2.3.0",
+    "vue-loader": "^15.9.5",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
