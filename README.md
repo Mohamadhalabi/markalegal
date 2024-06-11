@@ -1,3 +1,7 @@
+Marka Legal is an expert team working in the field of intellectual and industrial property in Turkey, consisting of trademark consultants, trademark attorneys and lawyers.
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
